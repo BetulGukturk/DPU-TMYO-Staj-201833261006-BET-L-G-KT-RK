@@ -1,0 +1,21 @@
+Ýlk önce Githup hesabý oluþturduk. Ben tam beceremedim sanýrým sýnýf arkadaþlarýma sordum fakat yardýmcý olan olmadý.
+
+1. ödevde sýralý ve sýrasýz liste örneði yaptýk. 
+Sýralý liste yapabilmek için <ol type="1"> komutunu yazarak <li> etiketlerinin içine liste elemanlarýmýzý yazdýk.
+Sýrasýz liste yapabilmek için <ul> etiketlerinin içine <li> etiketi açýp liste elemanlarýný bu etiketin içine yazdýk.
+
+2. ödevde tablo oluþturduk.
+<table border=" "> etiketini kullanarak tablo kenarlýðýmýzýn kalýnlýðýný belirledik.
+<tr> etiketinin içine <td> etiketlerini yazarak sütunlarý oluþturduk.
+Ayný þekilde <tr> etiketinin içine <td> etiketlerini yazarak satýrlarý oluþturduk. 
+
+3. ödevde ise 1. ödevdeki oluþturduðumuz listeyi 2. ödevdeki tabloya yerleþtirdik.
+tabi bunlarýn hepsini numaramýzýn son 2 hanesine ve sizin verdiðiniz komutlara göre yaptýk.
+
+4. ödevde tablomuza css kodlarý ekleyerek stil verdik.
+örneðin; arka plan rengi, yazý boyutu vs...
+
+5. ödevde ne istediðinizi anlayamadýðým için yapamadým.
+
+6. ödevde grid hakkýnda bilgi edindik. Edindiðimiz bilgilerden önemli kod satýrlarýný yazýp özet çýkarttýk.
+

@@ -1,0 +1,31 @@
+CSS GRÝD NEDÝR? 
+Grid, Web’in iskelet yapýsýný oluþturur. Web’de iki boyutlu sayfa yerleþimine imkan veren bir CSS tekniðidir. Temelde Row(satýr) ve Column(sütun) olarak adlandýrýlan yatay ve dikey kýlavuz çizgilerden oluþuyor. Bu çizgileri referans alarak web içinde kullanýlacak elementlerin yerleþimi saðlanýyor. Grid, tasarýmcýnýn tasarým aþamasýnda daha düzenli ve planlý yapýlar çýkarmasýný saðlar. Grid, alýþýk olduðumuz CSS’ten biraz daha karýþýktýr. 
+Bir CSS Grid tanýmlamak için display: grid özelliði kullanýlýr. 
+Alt öðelerin kolayca görülmesi için grid-gap özelliði kullanýlýr. 
+Örnek: 
+/* Grid Stilleri - BAÞLANGIÇ / .
+grid-ebeveyn { display: grid; grid-gap: 8px; } / 
+Grid Stilleri - SON */
+/* temel stiller */ 
+body { margin: 20px; color: #fff; font-family: sans-serif; } .
+cocuk { background-color: #444; border-radius: 4px; padding: 8px; } 
+.ornek { background-color: #b34ccf; }
+Sadece display: grid dediðimizde bir grid oluþturmuþ oluruz fakat bu, satýrlardan (row) oluþan bir yapý olur. Ýki boyutlu hale getirmek için grid-template-columns ile sütun (column) tanýmlamasý da yapmak gerekir. 
+Örnek: 
+/* Grid Stilleri - BAÞLANGIÇ / 
+.grid-ebeveyn { display: grid; grid-gap: 8px; grid-template-columns: 80px 80px 80px; } 
+/ Grid Stilleri - SON */
+/* temel stiller */
+ body { margin: 20px; color: #fff; font-family: sans-serif; } 
+.cocuk { background-color: #444; border-radius: 4px; padding: 8px; } 
+.ornek { background-color: #b34ccf; }
+Satýrlara müdahale etmek için grid-template-rows özelliðini kullanýyoruz. 
+Örnek:
+ /* Grid Stilleri - BAÞLANGIÇ / 
+.grid-ebeveyn { display: grid; grid-gap: 8px; grid-template-columns: 80px 80px 80px; grid-template-rows: 50px 50px; } 
+/ Grid Stilleri - SON */
+/* temel stiller */ 
+body { margin: 20px; color: #fff; font-family: sans-serif; } 
+.cocuk { background-color: #444; border-radius: 4px; padding: 8px; } 
+.ornek { background-color: #b34ccf; }
+Boyut belirlemek için : grid-row-end ve grid-column-end özelliði kullanýlýr.
